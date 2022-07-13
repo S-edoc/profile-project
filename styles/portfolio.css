@@ -24,9 +24,10 @@ p {
   text-align: center;
   border: 1px solid white;
   padding-top: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 400px;
   background: var(--primary-colour);
 }
+
 .hero h2,
 h3 {
   font-family: var(--primary-font-family);
@@ -44,4 +45,22 @@ p {
 
 .project-img-home {
   border-radius: 10px;
+}
+
+.button-wrap {
+  display: flex;
+  justify-content: space-evenly;
+}
+.button-design-primary {
+  padding: 10px 20px;
+  border: 1px solid var(--primary-colour);
+  text-decoration: none;
+  color: var(--primary-colour);
+  border-radius: 4px;
+}
+
+a:hover {
+  background: var(--primary-colour);
+  padding: 10px 20px;
+  color: white;
 }
