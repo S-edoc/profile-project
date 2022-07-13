@@ -22,9 +22,8 @@ p {
 }
 .hero {
   text-align: center;
-  border: 1px solid white;
   padding-top: 100px;
-  padding-bottom: 400px;
+  padding-bottom: 250px;
   background: var(--primary-colour);
 }
 
@@ -34,6 +33,9 @@ h3 {
   margin-bottom: 0;
 }
 
+.hero-heading {
+  margin-top: 150px;
+}
 .tagline,
 p {
   font-family: var(--primary-font-family);
@@ -50,6 +52,7 @@ p {
 .button-wrap {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 48px;
 }
 .button-design-primary {
   padding: 10px 20px;
@@ -63,4 +66,38 @@ a:hover {
   background: var(--primary-colour);
   padding: 10px 20px;
   color: white;
+}
+
+@media (max-width: 1399px) {
+  .project-description {
+    padding: 0;
+    padding-top: 70px;
+  }
+  .project-description p {
+    padding: 5px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 990px) {
+  h1 {
+    font-size: 70px;
+  }
+  .hero {
+    padding-bottom: 50px;
+  }
+  .hero-heading {
+    margin-top: 10px;
+  }
+  .project-description p,
+  h2 {
+    text-align: center;
+    margin: 0;
+  }
+  .button-wrap {
+    margin-top: 30px;
+  }
+  .tagline {
+    margin: 10px;
+  }
 }
