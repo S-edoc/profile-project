@@ -7,16 +7,6 @@ font-family: "Quicksand", sans-serif;*/
   --primary-colour: #eba0a0;
 }
 
-h1,
-h2,
-h3 {
-  text-align: center;
-}
-h2,
-h3 {
-  font-family: var(--primary-font-family);
-}
-
 h1 {
   font-family: var(--title-font-family);
   font-size: 100px;
@@ -24,11 +14,34 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 0;
+  font-family: var(--title-font-family);
+}
+
+p {
+  font-size: 20px;
 }
 .hero {
+  text-align: center;
   border: 1px solid white;
   padding-top: 100px;
   padding-bottom: 200px;
   background: var(--primary-colour);
+}
+.hero h2,
+h3 {
+  font-family: var(--primary-font-family);
+  margin-bottom: 0;
+}
+
+.tagline,
+p {
+  font-family: var(--primary-font-family);
+}
+
+.project-description {
+  padding: 120px 50px;
+}
+
+.project-img-home {
+  border-radius: 10px;
 }
