@@ -1,2 +1,34 @@
 /*font-family: "Cormorant Unicase", serif;
 font-family: "Quicksand", sans-serif;*/
+
+:root {
+  --primary-font-family: "Quicksand", sans-serif;
+  --title-font-family: "Cormorant Unicase", serif;
+  --primary-colour: #eba0a0;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+h2,
+h3 {
+  font-family: var(--primary-font-family);
+}
+
+h1 {
+  font-family: var(--title-font-family);
+  font-size: 100px;
+  line-height: 1;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+.hero {
+  border: 1px solid white;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background: var(--primary-colour);
+}
