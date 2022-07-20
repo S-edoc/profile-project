@@ -60,7 +60,8 @@ p {
   padding: 110px 50px;
 }
 
-.project-description a:hover {
+.project-description a:hover,
+.about-hero a:hover {
   background: var(--primary-colour);
   padding: 10px 20px;
   color: white;
@@ -70,6 +71,25 @@ p {
   border-radius: 10px;
 }
 
+.about-hero {
+  margin-top: 100px;
+}
+
+.about-hero h1 {
+  font-size: 64px;
+  margin-bottom: 24px;
+}
+
+.about-hero h3 {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.about-hero img {
+  border-radius: 30px;
+  max-width: 80%;
+  margin: 0 20px;
+}
 .button-wrap {
   display: flex;
   justify-content: space-evenly;
@@ -121,5 +141,18 @@ p {
   }
   .tagline {
     margin: 10px;
+  }
+
+  .about-hero {
+    text-align: center;
+  }
+  .about-hero h1 {
+    font-size: 48px;
+  }
+  .about-hero p {
+    font-size: 16px;
+  }
+  .about-hero img {
+    margin: 50px;
   }
 }
