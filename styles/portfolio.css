@@ -81,11 +81,11 @@ p {
 
 .content h3 {
   font-size: 20px;
+  font-weight: bold;
 }
 
 .content img {
   border-radius: 30px;
-  margin: 0 20px;
 }
 
 .content p {
@@ -141,23 +141,28 @@ p {
     text-align: center;
     margin: 0;
   }
-  .button-wrap {
-    margin-top: 30px;
-  }
-  .tagline {
-    margin: 10px;
-  }
-
   .content {
     text-align: center;
   }
   .content h1 {
     font-size: 48px;
+    margin-bottom: 20px;
   }
   .content p {
     font-size: 16px;
   }
   .content img {
-    margin: 50px 0;
+    margin: 40px 0;
+  }
+
+  .column-container {
+    margin-bottom: 0;
+  }
+
+  .button-wrap {
+    margin-top: 30px;
+  }
+  .tagline {
+    margin: 10px;
   }
 }
