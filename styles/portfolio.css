@@ -45,7 +45,6 @@ footer a:hover {
 .hero h2,
 h3 {
   font-family: var(--primary-font-family);
-  margin-bottom: 0;
 }
 
 .hero-heading {
@@ -71,25 +70,28 @@ p {
   border-radius: 10px;
 }
 
-.about-hero {
+.content {
   margin-top: 100px;
 }
 
-.about-hero h1 {
+.content h1 {
   font-size: 64px;
   margin-bottom: 24px;
 }
 
-.about-hero h3 {
+.content h3 {
   font-size: 20px;
-  margin-bottom: 24px;
 }
 
-.about-hero img {
+.content img {
   border-radius: 30px;
-  max-width: 80%;
   margin: 0 20px;
 }
+
+.content p {
+  font-size: 14px;
+}
+
 .button-wrap {
   display: flex;
   justify-content: space-evenly;
@@ -103,9 +105,9 @@ p {
   border-radius: 4px;
 }
 
-.weather-img {
-  padding-top: 40px;
-  padding-bottom: 155px;
+.img-style {
+  padding-top: 50px;
+  padding-bottom: 164px;
 
   background: var(--secondary-colour);
 }
@@ -113,11 +115,14 @@ p {
 @media (max-width: 1399px) {
   .project-description {
     padding: 0;
-    padding-top: 70px;
+    padding-top: 50px;
   }
   .project-description p {
     padding: 5px;
     font-size: 18px;
+  }
+  .button-wrap {
+    margin-top: 20px;
   }
 }
 
@@ -143,16 +148,16 @@ p {
     margin: 10px;
   }
 
-  .about-hero {
+  .content {
     text-align: center;
   }
-  .about-hero h1 {
+  .content h1 {
     font-size: 48px;
   }
-  .about-hero p {
+  .content p {
     font-size: 16px;
   }
-  .about-hero img {
-    margin: 50px;
+  .content img {
+    margin: 50px 0;
   }
 }
