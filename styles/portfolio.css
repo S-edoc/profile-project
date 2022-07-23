@@ -27,7 +27,8 @@ footer {
   padding: 50px;
 }
 
-footer a {
+footer a,
+.contacts-link {
   color: var(--primary-colour);
   text-decoration: none;
 }
@@ -43,7 +44,8 @@ footer a:hover {
 }
 
 .hero h2,
-h3 {
+h3,
+h6 {
   font-family: var(--primary-font-family);
 }
 
