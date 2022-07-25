@@ -183,10 +183,13 @@ footer .contact-box a:hover {
 .img-style {
   padding-top: 50px;
   padding-bottom: 164px;
-
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
   background: var(--secondary-colour);
 }
 
+.img-style-solo {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
 /*@media (max-width: 1399px) {
   .project-description {
     padding: 0;
