@@ -104,6 +104,15 @@ footer .social-links a:hover {
   border: 1px solid var(--primary-colour);
 }
 
+footer .source-code-link {
+  color: var(--primary-colour);
+  text-decoration: none;
+}
+
+footer .source-code-link:hover {
+  color: var(--secondary-colour);
+  text-decoration: underline;
+}
 .hero {
   text-align: center;
   padding-top: 150px;
@@ -161,6 +170,10 @@ footer .contact-box a:hover {
 }
 .content img {
   border-radius: 30px;
+}
+
+.work-img {
+  margin-bottom: 50px;
 }
 
 .logo {
@@ -248,10 +261,9 @@ footer .contact-box a:hover {
     margin: 40px 0;
   }
 
-  .column-container {
+  .work-img {
     margin-bottom: 0;
   }
-
   .button-wrap {
     margin-top: 30px;
   }
