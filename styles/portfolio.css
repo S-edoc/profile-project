@@ -80,6 +80,7 @@ footer .contact-box p {
 
 footer .contact-box a {
   font-size: 30px;
+  transition: all 100ms ease-in-out;
 }
 footer .email-link a {
   text-decoration: none;
@@ -107,6 +108,7 @@ footer .social-links a:hover {
 footer .source-code-link {
   color: var(--primary-colour);
   text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
 
 footer .source-code-link:hover {
@@ -135,8 +137,13 @@ p {
   padding: 110px 50px;
 }
 
+.project-description a,
+.button {
+  transition: all 100ms ease-in-out;
+}
+
 .project-description a:hover,
-.content .button a:hover,
+.button:hover,
 footer .contact-box a:hover {
   background: var(--primary-colour);
   padding: 10px 20px;
