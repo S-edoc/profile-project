@@ -6,6 +6,7 @@ font-family: "Quicksand", sans-serif;*/
   --title-font-family: "Cormorant Unicase", serif;
   --primary-colour: #eba0a0;
   --secondary-colour: #dccfc3;
+  --tertiary-colour: #fae7e7;
 }
 
 h1 {
@@ -14,8 +15,13 @@ h1 {
   line-height: 1;
 }
 
-h2 {
+h2,
+h4 {
   font-family: var(--title-font-family);
+}
+
+h4 {
+  font-size: 48px;
 }
 
 hr {
@@ -28,20 +34,6 @@ p {
   font-size: 20px;
 }
 
-footer {
-  text-align: center;
-  padding: 50px;
-}
-
-footer a,
-.contacts-link {
-  color: var(--primary-colour);
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: var(--secondary-colour);
-}
 nav {
   padding: 5px 10px;
 }
@@ -71,6 +63,47 @@ nav a:hover,
 nav li.active a {
   color: var(--primary-colour);
 }
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--tertiary-colour);
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .contact-box a {
+  font-size: 30px;
+}
+footer .email-link a {
+  text-decoration: none;
+  color: var(--primary-colour);
+  font-size: 25px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 18px;
+  font-size: 20px;
+  color: var(--secondary-colour);
+  background: var(--primary-colour);
+  border-radius: 50%;
+  border: 1px solid var(--primary-colour);
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--primary-colour);
+  background: white;
+  border: 1px solid var(--primary-colour);
+}
+
 .hero {
   text-align: center;
   padding-top: 150px;
@@ -94,7 +127,8 @@ p {
 }
 
 .project-description a:hover,
-.about-hero a:hover {
+.content .button a:hover,
+footer .contact-box a:hover {
   background: var(--primary-colour);
   padding: 10px 20px;
   color: white;
@@ -118,6 +152,13 @@ p {
   font-weight: bold;
 }
 
+.contacts-link {
+  color: var(--primary-colour);
+  text-decoration: none;
+}
+.contacts-link:hover {
+  color: var(--primary-colour);
+}
 .content img {
   border-radius: 30px;
 }
