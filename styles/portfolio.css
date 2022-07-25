@@ -18,6 +18,12 @@ h2 {
   font-family: var(--title-font-family);
 }
 
+hr {
+  color: var(--primary-colour);
+  margin: 0;
+  padding: 0;
+  border-bottom: 50px solid var(--primary-colour);
+}
 p {
   font-size: 20px;
 }
@@ -41,7 +47,7 @@ footer a:hover {
   text-align: center;
   padding-top: 150px;
   padding-bottom: 150px;
-  background: var(--primary-colour);
+  background-color: var(--primary-colour);
 }
 
 .hero h2,
@@ -93,7 +99,7 @@ p {
 }
 
 nav {
-  padding: 10px 10px;
+  padding: 5px 10px;
 }
 
 nav li {
@@ -146,7 +152,7 @@ nav li.active a {
   background: var(--secondary-colour);
 }
 
-@media (max-width: 1399px) {
+/*@media (max-width: 1399px) {
   .project-description {
     padding: 0;
     padding-top: 50px;
@@ -158,7 +164,7 @@ nav li.active a {
   .button-wrap {
     margin-top: 20px;
   }
-}
+}*/
 
 @media (max-width: 990px) {
   h1 {
@@ -178,10 +184,19 @@ nav li.active a {
     font-size: 20px;
   }
 
+  .project-description {
+    padding: 0 10px;
+  }
+
   .project-description p,
   h2 {
     text-align: center;
     margin: 0;
+  }
+
+  .project-description p,
+  .content p {
+    font-size: 16px;
   }
 
   .content {
@@ -190,9 +205,6 @@ nav li.active a {
   .content h1 {
     font-size: 48px;
     margin-bottom: 20px;
-  }
-  .content p {
-    font-size: 16px;
   }
   .content img {
     margin: 40px 0;
@@ -205,6 +217,7 @@ nav li.active a {
   .button-wrap {
     margin-top: 30px;
   }
+
   .tagline {
     margin: 10px;
   }
