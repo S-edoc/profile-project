@@ -42,7 +42,35 @@ footer a,
 footer a:hover {
   color: var(--secondary-colour);
 }
+nav {
+  padding: 5px 10px;
+}
 
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+  font-family: var(--primary-font-family);
+  font-size: 20px;
+}
+
+nav ul {
+  padding: 0;
+  padding-top: 10px;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-colour);
+}
 .hero {
   text-align: center;
   padding-top: 150px;
@@ -86,46 +114,12 @@ p {
 }
 
 .content h3 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
 }
 
 .content img {
   border-radius: 30px;
-}
-
-.content p {
-  font-size: 14px;
-}
-
-nav {
-  padding: 5px 10px;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 15px;
-  font-family: var(--primary-font-family);
-  font-size: 20px;
-}
-
-nav ul {
-  padding: 0;
-  padding-top: 10px;
-  margin: 0;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-  transition: all 100ms ease-in-out;
-}
-
-nav a:hover,
-nav li.active a {
-  color: var(--primary-colour);
 }
 
 .logo {
@@ -173,7 +167,6 @@ nav li.active a {
 
   nav li {
     font-size: 16px;
-    color: red;
   }
 
   .hero {
