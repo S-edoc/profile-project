@@ -179,6 +179,9 @@ footer .contact-box a:hover {
   border-radius: 30px;
 }
 
+.content .about-heading {
+  margin-bottom: 30px;
+}
 .work-img {
   margin-bottom: 50px;
 }
@@ -262,21 +265,28 @@ footer .contact-box a:hover {
     margin-top: 50px;
   }
   .content h1 {
-    font-size: 48px;
+    font-size: 35px;
     margin-bottom: 20px;
+  }
+  .content h3 {
+    font-size: 20px;
   }
   .content img {
     margin: 40px 0;
   }
 
+  footer .email-link a {
+    font-size: 18px;
+  }
   .work-img {
     margin-bottom: 0;
   }
-  .button-wrap {
-    margin-top: 30px;
+  .img-style,
+  .img-style-solo {
+    box-shadow: none;
   }
 
-  .tagline {
-    margin: 10px;
+  .button-wrap {
+    margin-top: 30px;
   }
 }
