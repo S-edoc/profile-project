@@ -138,12 +138,12 @@ p {
 }
 
 .project-description a,
-.button {
+.about-button {
   transition: all 100ms ease-in-out;
 }
 
 .project-description a:hover,
-.button:hover,
+.about-button:hover,
 footer .contact-box a:hover {
   background: var(--primary-colour);
   padding: 10px 20px;
@@ -185,7 +185,16 @@ footer .contact-box a:hover {
 .work-img {
   margin-bottom: 50px;
 }
+.work-link {
+  color: black;
+  text-decoration: none;
+  transition: all 250ms ease-in-out;
+}
 
+.work-link:hover {
+  color: var(--primary-colour);
+  text-decoration: underline;
+}
 .logo {
   max-height: 65px;
 }
@@ -213,6 +222,11 @@ footer .contact-box a:hover {
 
 .img-style-solo {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.img-about {
+  margin-top: 50px;
+  margin-left: 30px;
 }
 /*@media (max-width: 1399px) {
   .project-description {
