@@ -188,7 +188,7 @@ footer .contact-box a:hover {
 .work-link {
   color: black;
   text-decoration: none;
-  transition: all 250ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
 .work-link:hover {
@@ -228,19 +228,6 @@ footer .contact-box a:hover {
   margin-top: 50px;
   margin-left: 30px;
 }
-/*@media (max-width: 1399px) {
-  .project-description {
-    padding: 0;
-    padding-top: 50px;
-  }
-  .project-description p {
-    padding: 5px;
-    font-size: 18px;
-  }
-  .button-wrap {
-    margin-top: 20px;
-  }
-}*/
 
 @media (max-width: 990px) {
   h1 {
